@@ -1,4 +1,0 @@
-[14-Feb-2014 09:38:36 Africa/Dar_es_Salaam] PHP Fatal error:  Call to a member function result() on a non-object in /home/eastc/public_html/emanagement/application/views/cashier/display/viewOnePettyAccount.php on line 14
-[14-Feb-2014 16:34:23 Africa/Dar_es_Salaam] PHP Fatal error:  Call to a member function result() on a non-object in /home/eastc/public_html/emanagement/application/views/finance/display/viewOnePettyAccount.php on line 17
-[14-Feb-2014 16:36:39 Africa/Dar_es_Salaam] PHP Fatal error:  Call to undefined method Common_model::getReplenishID() in /home/eastc/public_html/emanagement/application/controllers/normal_user.php on line 450
-[14-Feb-2014 16:40:46 Africa/Dar_es_Salaam] PHP Fatal error:  Call to a member function result() on a non-object in /home/eastc/public_html/emanagement/application/views/normal_user/display/viewOnePettyAccount.php on line 14
