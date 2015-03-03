@@ -1,0 +1,618 @@
+/* 
+    Document   : main.css
+    Created on : Nov 22, 2013, 7:29:39 AM
+    Author     : joseph
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.table-report tr td{
+    border: 1px solid;
+    font-size: 10px;
+   
+}
+
+
+#head{
+    margin-bottom: 50px;
+}
+
+#menu_one{
+    margin-bottom: 50px;
+}
+
+#body_one{
+    margin-bottom: 50px;
+}
+
+#body_login{
+    margin-top: 100px;
+}
+
+root { 
+    display: block;
+}
+
+.container-non-responsive {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
+   //font-family: 'Verdana', Geneva, sans-serif;
+   font-size: 12px;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; }
+.ui-timepicker-rtl dl dd { margin: 0 65px 10px 10px; }
+
+.error{
+    color: #A70000;
+    font-size: 10px;
+    text-align: left;
+}
+
+.asc:after {
+content: "▲";
+           }
+           
+.desc:after {
+content: "▼";
+}
+
+
+.application-footer {
+  background-color: #fcfcfc;
+  z-index: 900;
+  height: 100px;
+  margin-top: 60px;
+  clear: both;
+  position: relative;
+}
+.application-footer .container {
+  padding-top: 5px;
+  color: #555555;
+  text-align: center;
+  border-top: 1px solid #999999;
+}
+.application-footer .container p {
+  margin: 0 0 5px;
+}
+.disclaimer {
+  text-align: center;
+  font-size: 11px;
+  color: #999999;
+}
+#loadingimage{
+    margin-left:25%;
+    z-index: 1000;
+    height:10px;
+    clear: both;
+    margin-bottom:10px;
+}
+#username{
+    font-size:14px;
+    font-weight:bold;
+}
+#changeposition a,#transfer a,#removeuser a{
+    color:#ffffff;
+    text-decoration: none;
+    font-weight:bold;
+    font-size:12px;  
+}
+#formsfordeleteupdatedeactivateuser{
+    position:fixed;
+    top: 40%;
+    left: 50%;
+    width: 450px;
+    height: 380px;
+    margin-left: -140px;
+    margin-top: -70px;
+    background-color: #fff;
+    border-radius:0px;
+    border-style:solid;
+    border-width:10px;
+    border-color:#30829E transparent;
+    padding-top:-1px;
+    padding-top:10px;
+    /* needed styles for the overlay */
+    z-index: 10; /* keep on top of other elements on the page */
+    box-shadow: 0 0 0 82px rgba(0,0,0,0.4);
+}
+#loadingimage{
+ margin-top:-10px;  
+}
+#close{
+margin-top:-95px;
+margin-right: -1px;
+margin-bottom:100px;
+color:#fff;
+text-align: right;
+font-weight: bold;
+}
+#activateuser a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    
+}
+#activateuserwindowbefore{
+    position:fixed;
+    top: 35%;
+     left: 50%;
+    width: 450px;
+    height:420px;
+    margin-left: -250px;
+    margin-top: -80px;
+    margin-left:-150px;
+    margin-top: -60px;
+    background-color:rgba(0,0,0,0.3);
+    border-radius:0px;
+    border-style:solid;
+    border-width:10px;
+    border-color:transparent transparent;
+    padding-top:30px;
+    padding-left: 100px;
+
+    /* needed styles for the overlay */
+    z-index: 10; /* keep on top of other elements on the page */
+    box-shadow: 0 0 0 82px rgba(0,0,0,0.3);   
+    
+}
+#userreactivate{
+     position:fixed;
+    top: 35%;
+    left:50%;
+    width: 450px;
+    height:420px;
+    margin-left: -250px;
+    margin-top: -80px;
+    margin-left:-150px;
+    margin-top: -60px;
+    background-color:#fff;
+    border-radius:0px;
+    border-style:solid;
+    border-width:10px;
+    border-color:#30829E transparent;
+    padding-top:30px;
+    padding-left: 100px;
+
+    /* needed styles for the overlay */
+    z-index: 10; /* keep on top of other elements on the page */
+    box-shadow: 0 0 0 82px rgba(0,0,0,0.4);       
+}
+#activateuserwindow{
+    position:fixed;
+    top: 40%;
+    left: 48%;
+    width: 450px;
+    height:400px;
+    color:black;
+    margin-left: -110px;
+    margin-top: -70px;
+    background-color: #fff;
+    border-radius:0px;
+    border-style:solid;
+    border-width:10px;
+    border-color:#30829E transparent;
+    padding-top:-1px;
+    padding-top:10px;
+    /* needed styles for the overlay */
+    z-index: 10; /* keep on top of other elements on the page */
+    box-shadow: 0 0 0 80px rgba(0,0,0,0.4);
+}
+#reactivateUser a{
+    text-decoration: none;
+    font-weight:bold;
+    color:#fff;
+}
+    
+
+#close a{
+    color:#fff;
+}
+#usertransfer{
+    position:fixed;
+    top: 25%;
+    left:22%;
+    width: 910px;
+    min-height: 380px;
+    margin-left: -140px;
+    margin-top: -70px;
+    background-color: #fff;
+    border-radius:0px;
+    border-style:solid;
+    border-width:10px;
+    border-color:transparent;
+    padding-top:10px;
+    /* needed styles for the overlay */
+    z-index: 10; /* keep on top of other elements on the page */
+    box-shadow: 0 0 0 1000px rgba(0,0,0,0.8);     
+}
+#UpdateNewLocation{
+    margin-left: 90%;
+    font-weight:bold;
+    box-shadow: 0 0 0 1px rgba(0,0,0.5,0);     
+}
+#resetpassword a{
+    font-weight:bold;
+    color:#fff;
+    text-decoration: none;
+}
+#changepassword{
+    position:fixed;
+    top: 25%;
+    left:22%;
+    width: 910px;
+    min-height: 380px;
+    margin-left: -140px;
+    margin-top: -70px;
+    background-color: #fff;
+    border-radius:0px;
+    border-style:solid;
+    border-width:10px;
+    border-color:transparent;
+    padding-top:10px;
+    /* needed styles for the overlay */
+    z-index: 10; /* keep on top of other elements on the page */
+    box-shadow: 0 0 0 1000px rgba(0,0,0,0.8);         
+}
+#setpassword{
+    
+   font-weight: bold;
+   box-shadow:0 0 0 1px rgba(0,0,0,0.4); 
+}
+#makosadhidiyabinadamu{
+  color: #ffffff;
+ 
+}
+#suggestedrbdropdown{
+    position:fixed;
+    top: 37%;
+    left:36.8%;
+    width:260px;
+    min-height:10px;
+    background-color:rgba(0,0,0,0.2);
+    border-radius:3px;
+    border-style:solid;
+    border-width:10px;
+    border-color:transparent;
+    /* needed styles for the overlay */
+    z-index: 1; /* keep on top of other elements on the page */
+    box-shadow:0 0 0 1px rgba(0,0,0,0.4); 
+    
+}
+.label-dci{
+    
+  background-color: #911955;   
+    
+}
+.label-dpp{
+    background-color: #008080;    
+}
+.send_court{
+  background-color:#C71585; 
+  color:#fff;
+}
+.label-wardcourt{
+    background-color:#4B0082;    
+}
+.label-districtcourt{
+    background-color:#7D0541;    
+}
+.label-regioncourt{
+    background-color:#4E387E;    
+}
+.label-highcourt{
+    background-color:#6E0000;    
+}
+#send_mahakamani a{
+    color:#fff;
+    text-decoration: none;
+    font-kerning: auto;
+   
+    
+}
+.label-nfa{
+    color:#fff;
+   background-color:black;     
+}
+.label-nod{
+    color:#fff;
+   background-color:black;     
+}
+.label-u{
+    color:#fff;
+   background-color:black;     
+}
+.label-courtward{
+    color:#fff;
+   background-color:black;     
+}
+.label-courtdistrict{
+    color:#fff;
+   background-color:black;     
+}
+.label-courtregion{
+    color:#fff;
+   background-color:black;     
+}
+.label-courthigh{
+    color:#fff;
+   background-color:black;     
+}
+.label-imefungwa{
+   color:#fff;
+   font-weight: bold;
+   font-size: 12px;
+   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+   padding: 6px 6px 6px 6px;
+   -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+   background-color:black;        
+}
+#courtforminfo{
+ position:fixed;
+    top: 25%;
+    left:22%;
+    width: 910px;
+    min-height: 380px;
+    margin-left: -140px;
+    margin-top: -70px;
+    background-color: #fff;
+    border-radius:0px;
+    border-style:solid;
+    border-width:10px;
+    border-color:transparent;
+    padding-top:10px;
+    /* needed styles for the overlay */
+    z-index: 10; /* keep on top of other elements on the page */
+    box-shadow: 0 0 0 8000px rgba(0,0,0,0.8);     
+       
+}
+#transferwardcout{
+    font-size: 14px;
+  
+}
+#peleka{
+    margin-left:92%;
+}
+#closingpolice{
+    margin-left:92%;
+}
+#closingcourt{
+    margin-left:92%;
+}
+#courtclosewindow a{
+    color:#fff;
+    
+}
+#ongezampelelezi{
+    margin-left:17%;
+}
+#ongezampelelezi a{
+  color:#fff;  
+  text-decoration: none;
+}
+#wapelezi{
+    position:fixed;
+    top: 40%;
+    left: 48%;
+    width: 450px;
+    height:400px;
+    color:black;
+    margin-left: -110px;
+    margin-top: -70px;
+    background-color: #fff;
+    border-radius:0px;
+    border-style:solid;
+    border-width:10px;
+    border-color:#30829E transparent;
+    padding-top:-1px;
+    padding-top:10px;
+    /* needed styles for the overlay */
+    z-index: 10; /* keep on top of other elements on the page */
+    box-shadow: 0 0 0 80px rgba(0,0,0,0.4);
+  
+        
+}
+.btn-court {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #4B0082;
+  *background-color: #4B0082;
+  background-image: -moz-linear-gradient(top, #0088cc, #4B0082);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: #4B0082 #4B0082 #4B0082;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-court:hover,
+.btn-court:active,
+.btn-court.active,
+.btn-court.disabled,
+.btn-court[disabled] {
+  color: #fff;
+  background-color: #4B0082;
+  *background-color: #4B0082;
+}
+.btn-court a{
+   color: #fff; 
+}
+
+
+
+.btn-districtcourt {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #7D0541;
+  *background-color: #7D0541;
+  background-image: -moz-linear-gradient(top, #0088cc, #7D0541);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: #7D0541 #7D0541 #7D0541;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-districtcourt:hover,
+.btn-districtcourt:active,
+.btn-districtcourt.active,
+.btn-districtcourt.disabled,
+.btn-districtcourt[disabled] {
+  color: #fff;
+  background-color:#7D0541;
+  *background-color:#7D0541;
+}
+.btn-districtcourt a{
+   color: #fff; 
+}
+
+
+
+
+
+
+
+.btn-regioncourt{
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #4E387E;
+  *background-color: #4E387E;
+  background-image: -moz-linear-gradient(top, #0088cc, #4E387E);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: #4E387E #4E387E #4E387E;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-regioncourt:hover,
+.btn-regioncourt:active,
+.btn-regioncourt.active,
+.btn-regioncourt.disabled,
+.btn-regioncourt[disabled] {
+  color: #fff;
+  background-color:#4E387E;
+  *background-color:#4E387E;
+}
+.btn-regioncourt a{
+   color: #fff; 
+}
+
+.btn-highcourt{
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #6E0000;
+  *background-color: #6E0000;
+  background-image: -moz-linear-gradient(top, #0088cc, #4E387E);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: #6E0000 #6E0000 #6E0000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-highcourt:hover,
+.btn-highcourt:active,
+.btn-highcourt.active,
+.btn-highcourt.disabled,
+.btn-highcourt[disabled] {
+  color: #fff;
+  background-color:#6E0000;
+  *background-color:#6E0000;
+}
+.btn-highcourt a{
+   color: #fff; 
+}
+
+
+
+
+
+
+
+.btn-police {
+  color: #fff;
+  font-size:12px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.20);
+  padding: 3px 4px 4px;
+  background-color: #C3B091;
+  *background-color: #C3B091;
+  background-image: -moz-linear-gradient(top, #0088cc, #C3B091);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#C3B091), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #C3B091, #C3B091);
+  background-image: -o-linear-gradient(top, #C3B091, #C3B091);
+  background-image: linear-gradient(to bottom, #C3B091, #C3B091);
+  background-repeat: repeat-x;
+  border-color: #C3B091 #C3B091 #C3B091;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C3B091', endColorstr='#C3B091', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-police a {
+    color: #fff;
+  font-size:8px;
+}
+.btn-police:hover,
+.btn-police:active,
+.btn-police.active,
+.btn-police.disabled,
+.btn-police[disabled] {
+  color: #fff;
+  background-color:#C3B091;
+  *background-color: #C3B091;
+}
+#send_close a{
+  color:#fff;  
+}
+#courtclosing{
+ position:fixed;
+    top: 25%;
+    left:22%;
+    width: 910px;
+    min-height: 380px;
+    margin-left: -140px;
+    margin-top: -70px;
+    background-color: #fff;
+    border-radius:0px;
+    border-style:solid;
+    border-width:10px;
+    border-color:transparent;
+    padding-top:10px;
+    /* needed styles for the overlay */
+    z-index: 10; /* keep on top of other elements on the page */
+    box-shadow: 0 0 0 8000px rgba(0,0,0,0.8);     
+       
+}
+#chasisnumber{
+  
+    width: 200px;
+    height: 30px;
+
+      
+}

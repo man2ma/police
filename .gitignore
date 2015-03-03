@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+=======
+/nbproject/private/
+>>>>>>> c3ef847c4b03b8faea9d9f200e2bbb1dbdabde5c
